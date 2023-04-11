@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: blue;
+    }
+    ul{
+        list-style: none;
+    }
+    .nav-link {
+        color: white;
+        font-size: 14px;
+        display: inline-block;
+        margin-right: 2rem;
+        position: relative;
+    }
+    .nav-link::after {
+        content: "";
+        background-color: white;
+        height: 2px;
+        left: 0;
+        position: absolute;
+        top: 110%;
+        -webkit-transform: scaleX(0);
+                transform: scaleX(0);
+        -webkit-transform-origin: center;
+                transform-origin: center;
+        -webkit-transition: -webkit-transform 0.3s ease;
+        transition: -webkit-transform 0.3s ease;
+        transition: transform 0.3s ease;
+        transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+        width: 100%;
+    }
+
+    .nav-link:hover::after {
+    background-color: #454545;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  .progress-container {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.progress-bar {
+    width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-label {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+</style>
+<body>
+    <nav>
+        <img src="./images/logo.svg" alt="">
+        <ul class="nav-desktop">
+            <li class="nav-link">Home</li>
+            <li class="nav-link">About</li>
+            <li class="nav-link">Services</li>
+            <li class="nav-link">Contact</li>
+            <li class="nav-link">Help</li>
+        </ul>
+    </nav>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex vitae explicabo obcaecati eaque distinctio quisquam temporibus quas provident, autem consectetur magnam natus animi veniam non quo nemo magni vero accusamus perferendis nihil pariatur eligendi omnis. Consectetur debitis amet eius voluptates ipsam tempore, odio soluta dolor quam inventore praesentium nesciunt autem reiciendis minus totam aspernatur laudantium a labore quidem, distinctio eveniet magni porro expedita placeat! Numquam placeat labore ex, assumenda nisi vero ipsam corporis nihil modi? Quos dolore, neque aut eligendi natus veniam magni nulla dolor non suscipit aliquid perspiciatis sunt nihil? Quasi eum accusantium dolorum earum esse doloremque voluptas libero nisi, repellat ipsum nulla exercitationem hic magnam. Ducimus soluta est magnam in perspiciatis, expedita consequuntur distinctio esse non voluptates itaque quasi voluptate architecto omnis possimus deserunt necessitatibus quidem. Dolores voluptate minima accusantium enim repellendus error in doloremque, ullam dicta adipisci, aperiam odit ipsam tempora dignissimos sapiente beatae architecto placeat debitis saepe ipsa doloribus, officia fugiat voluptatem. Iste ipsum quod ad deserunt molestias quidem harum enim, dolores doloremque soluta. Facilis unde soluta eius fuga pariatur, saepe minima perspiciatis adipisci sit? Ullam minus cum omnis blanditiis illo obcaecati dolor reiciendis mollitia soluta ea. Aspernatur architecto amet sequi repellat perferendis saepe, iste veniam recusandae soluta placeat voluptatem, impedit, quibusdam ullam magnam animi! Id et quis veritatis unde ut, impedit debitis? Obcaecati asperiores dolore praesentium enim quos, provident molestias. Vitae eveniet cumque optio nam doloremque esse nobis, porro commodi, soluta natus eaque facere. Deleniti magnam molestias fugiat molestiae sit numquam soluta error nisi, architecto blanditiis quia delectus eius quod alias consectetur dignissimos rerum possimus assumenda laborum aut explicabo impedit iusto. Sit ipsum hic placeat beatae magnam delectus cum minima unde non corrupti similique eius earum saepe error, in perferendis ex fuga quas. Nobis nisi magnam optio nulla, velit totam ipsum eaque fugit harum sapiente, et cumque molestiae consequuntur, odit maxime eum expedita? Fugit aut alias mollitia expedita sapiente quasi et veniam temporibus corrupti suscipit quis possimus officiis, voluptatum repudiandae sit porro eum rem ad perspiciatis vel. Recusandae tenetur natus, quisquam voluptatibus eaque sint placeat mollitia numquam, sed iste architecto quas doloribus omnis, laudantium corrupti pariatur. Dicta consequuntur possimus perspiciatis doloribus eveniet, cumque quo adipisci officiis ab quis labore corporis id ipsa accusamus ducimus saepe in voluptatum veniam sit dignissimos ipsum quaerat autem. Excepturi ex eius nostrum quos iusto nisi reprehenderit quae laboriosam explicabo illo ratione saepe alias sequi asperiores, quisquam id molestiae fuga illum magni. Laudantium perspiciatis eum consequatur doloremque recusandae! Accusantium sequi impedit commodi magni vero dolorum numquam laboriosam ipsam exercitationem, ducimus, beatae totam saepe itaque expedita tempore, accusamus labore atque voluptas laudantium cumque explicabo delectus! Perspiciatis inventore nam cum enim quas ut consequuntur deleniti soluta sit doloremque error omnis, tempore aliquid et ipsa fuga itaque iusto, vitae ipsum odit quasi cumque, suscipit incidunt. Nam omnis dignissimos, facilis, rem dolores sequi dolorem suscipit cumque, cupiditate a officiis quibusdam! Saepe ad est perspiciatis eos temporibus cum eaque odit necessitatibus laborum minus, ipsam quibusdam in modi tenetur consequatur aliquam ducimus, ut incidunt ab quas veniam cupiditate reprehenderit sequi qui? Debitis at consectetur quae rem ratione, repellendus, suscipit error molestias iste quis quas voluptates magni explicabo ipsa repellat ab saepe dolores asperiores blanditiis minus nisi qui minima. Deserunt, culpa esse est consectetur fugiat nostrum, possimus eos praesentium iusto magni maxime enim illo. Optio veniam repudiandae voluptatem error. Odio quibusdam accusamus aliquid assumenda sapiente, commodi aut impedit, repellat sequi eaque temporibus ipsa dolore tempore saepe iste fugiat at distinctio, beatae ullam voluptatibus. Excepturi, perferendis esse aspernatur mollitia reiciendis similique iusto nam, aut quaerat ad cumque culpa dicta enim? Labore, unde! Neque quas eos necessitatibus illum repellat odit adipisci accusamus fugit porro expedita accusantium nemo deleniti sunt officiis magni at perspiciatis, cumque ut aliquid ad animi voluptatum vel ab! Ea animi alias voluptates facilis excepturi iste rem consectetur aut minima perspiciatis nam, officiis sint, autem expedita saepe. Voluptate ducimus in unde placeat, culpa maxime explicabo beatae officia, accusantium, esse rem sunt sed corporis fugit hic adipisci cum. Fuga ipsam ipsum sed repellendus eligendi nihil voluptatum error quasi similique. Provident quia ullam voluptate temporibus repellendus sapiente dicta recusandae culpa magni, qui nulla. Debitis, rem quia excepturi minus aliquam saepe reprehenderit beatae ducimus tempora? Odio non nemo nulla placeat, dicta fugiat facere cumque culpa ex similique? Dolor facere deserunt rerum sapiente vitae ipsum quo molestias placeat voluptas repellat ex ab maxime, numquam esse distinctio vero ipsa laboriosam, architecto eos iure nostrum. Placeat similique hic fugiat aliquid modi saepe animi maiores nisi sit magnam alias eveniet sapiente in odio obcaecati voluptates corrupti eaque, atque, earum ad. Eum beatae dolorem culpa voluptas rerum corrupti minima esse sint enim! Modi reiciendis dignissimos nisi saepe nam autem natus labore nulla odio, sapiente aperiam. Inventore fugit repudiandae nulla cupiditate odio facilis consequatur. Eum sint cum nobis asperiores, quod iure voluptatibus amet dolorem officia eius vitae blanditiis in ad atque doloremque totam, facere tenetur ea earum? Possimus repellat dolorum aliquid error officiis odio itaque corporis tempore, minima voluptatibus tempora debitis quod iure, laborum, doloribus sint excepturi id molestias dolorem. Repudiandae delectus consequatur, possimus, corporis illo deserunt dignissimos animi eaque dolorum at necessitatibus aspernatur id, pariatur unde inventore ab natus. Harum provident neque consectetur corrupti nesciunt alias voluptatum illo ut doloremque, ipsum, assumenda iure autem. Tenetur libero, rerum nobis, aut sapiente in explicabo et consequuntur accusamus, ipsa autem ea beatae ullam natus quis voluptatibus? Aut distinctio natus praesentium, maxime quia accusantium obcaecati, illum unde omnis assumenda cum? Corporis placeat, vitae excepturi deserunt accusantium incidunt veritatis numquam qui culpa molestiae aperiam tenetur enim officia. Perspiciatis, fugit quod. Ipsam, soluta quam eligendi amet animi praesentium laborum voluptatum illum quaerat, non totam cumque neque excepturi officiis laboriosam eius velit cupiditate, delectus minima est magnam. Reprehenderit, quod? Ratione assumenda, deserunt harum explicabo nemo iusto fugiat exercitationem cupiditate velit minus quisquam natus voluptates ea accusantium odio quibusdam perferendis magni debitis nostrum inventore eveniet id alias? Odio quasi voluptate voluptatem nihil quo praesentium. Possimus, exercitationem ipsam consequuntur maiores eum odio cumque facere laboriosam dignissimos dolore quisquam id assumenda ducimus consectetur sed soluta? Impedit.</p>
+    <div class="progress-container slide">
+        <div class="progress-bar"></div>
+        <div class="progress-label">0%</div>
+    </div>
+
+    <script>
+const progressContainer = document.querySelector('.progress-container');
+const progressBar = document.querySelector('.progress-bar');
+const progressLabel = document.querySelector('.progress-label');
+
+function updateProgressBar() {
+  const progress = window.pageYOffset / (document.body.offsetHeight - window.innerHeight);
+  progressBar.style.width = `${progress * 50}%`;
+  progressLabel.textContent = `${progressBar.style.width}`;
+}
+
+// Listen for the scroll event and call updateProgressBar() on every scroll
+window.addEventListener('scroll', updateProgressBar);
+
+// Call updateProgressBar() once on page load to set the initial progress
+updateProgressBar();
+
+    </script>
+</body>
+</html>
