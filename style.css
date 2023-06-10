@@ -145,7 +145,7 @@ p{
 .group{
     display: flex;
     flex-direction: row;
-    margin-top: 140px;
+    margin-top: 90px;
 }
 .prev, .next{
     padding: 20px;
